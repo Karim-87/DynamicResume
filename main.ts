@@ -16,20 +16,20 @@ form.addEventListener(`submit`, (event: Event)=> {
 
     //generate resume
     const resumeHtml = `
-    <h1>Resume</h1>
+    <h1>Editable Resume</h1>
     <h2>Personal Information</h2>
-    <p><b>Name:</b> ${name}</p>
-    <p><b>Email:</b> ${Email}</p>
-    <p><b>Phone:</b> ${phone}</p>
+    <p><b>Name:</b><span contenteditable="true"> ${name}</span></p>
+    <p><b>Email:</b><span contenteditable="true"> ${Email}</span></p>
+    <p><b>Phone:</b><span contenteditable="true"> ${phone}</span></p>
 
     <h2>Education:</h2>
-    <p> ${Education}</p>
+    <p contenteditable="true"> ${Education}</p>
 
     <h2>Experience:</h2>
-    <p> ${Experience}</p>
+    <p contenteditable="true"> ${Experience}</p>
 
     <h2>Skills:</h2>
-    <p> ${Skills}</p>
+    <p contenteditable="true"> ${Skills}</p>
 
     `;
 

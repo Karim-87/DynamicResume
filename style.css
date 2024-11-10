@@ -47,6 +47,7 @@
     border: 1px solid #1a88d1;
     border-radius: 8px;
     width: 800px;
+    outline: none;
 }
 
 #Resume-display  h2 {
